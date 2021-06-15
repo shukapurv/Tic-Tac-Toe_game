@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    background-image: url(./images/bg.jpg);
+}
+
+.title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: white solid;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+#singlePlayer {
+    margin-top: 135px;
+    margin-bottom: 05px;
+    width: 80%;
+    height: 200px;
+    margin-right: 0px;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+}
+
+#doublePlayer {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    width: 80%;
+    height: 200px;
+    margin-right: 0px;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
+
+    
+}
+
+@media only screen and (min-width: 420px) {
+    #singlePlayer,#doublePlayer {
+        width: 210px;
+        margin-right: 40px;
+        
+    }
+}
+
+
+#singlePlayer img,#doublePlayer img {
+    height: 120px;
+    width: 120px;
+}
+
+#singlePlayer:hover,#doublePlayer:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+h3 {
+    color: black;
+}
+
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+}

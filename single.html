@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe/Single</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styleSingle.css">
+</head>
+
+<body>
+    <embed src="./music/Atmosphere.mp3" autostart="true" loop="true" width="1" height="0">
+    <header>
+        <h1>My Tic-Tac-Toe Game</h1>
+        <div class="pop">
+            <h3>Choose player to go first: </h3>
+            <button id="bot">BOT</button>
+            <button id="player">YOU</button>
+         </div>
+    </header>
+    <div class="gameBoardShow">
+        <div class="body">
+            <div>
+                <button id="sq1" class="cube"></button>
+                <button id="sq2" class="cube"></button>
+                <button id="sq3" class="cube"></button>
+            </div>
+            <div>
+                <button id="sq4" class="cube"></button>
+                <button id="sq5" class="cube"></button>
+                <button id="sq6" class="cube"></button>
+            </div>
+            <div>
+                <button id="sq7" class="cube"></button>
+                <button id="sq8" class="cube"></button>
+                <button id="sq9" class="cube"></button>
+            </div>
+        </div>
+    </div>
+    <div class="msgCard">
+        <h2 id="resultMsg">X won!</h2>
+        <hr>
+        <button class="restart" onclick="restart()">Restart</button>
+    </div>
+    <script src="./appSingle.js"></script>
+</body>
+
+</html>
